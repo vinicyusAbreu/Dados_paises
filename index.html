@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html data-theme="Dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Countries</title>
+    <meta name="description" content="Countries">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header class="animate__animated animate__fadeInDown">
+        <div class="cabeca">
+            <h1 class="logo">Where in the world?</h1>
+
+            <div class="icones-menu">
+                <i class="fas fa-moon"></i><span>Dark</span>Mode
+            </div>
+        </div>
+    </header>
+
+    <section class="secao-pesquisas">
+
+        <div class="container-pesquisa">
+
+            <div class="box-pesquisa animate__animated animate__fadeInLeft">
+                <span><i class="fas fa-search"></i></span>
+                <input type="search" name="pesquisa" id="pesquisa" placeholder="Search for a country..." autocomplete="off">
+            </div>
+
+            <div class="box-filtro animate__animated animate__fadeInRight">
+                <select name="filtro" id="filtroRegiao">
+                    <option value="all" disabled selected hidden>Filter by Region</option>
+                    <option value="all">Whole World</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section class="secao-bandeira">
+        <div class="container-bandeira">
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class="secao-voltar esconder">
+        <div class="container-voltar">
+            <div class="box-voltar animate__animated animate__fadeIn">
+                <i class="fas fa-arrow-left"></i>Back
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-descricao esconder">
+
+        <div class="container-descricao">
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <div class="container-spiner esconder"><i class="fas fa-circle-notch"></i></div>
+
+
+
+    <div class="erro esconder">
+        <p>Oops, we have no idea what you're talking about 😵</p>
+        <p>Search for something else</p>
+    </div>
+
+    <footer>
+        Criado por Vinicius de Abreu 🤓
+    </footer>
+
+
+
+
+    <script src="js/app.js" async defer type="module"></script>
+</body>
+
+</html>
