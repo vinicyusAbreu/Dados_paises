@@ -1,6 +1,6 @@
 # 🗺 Dados dos Países
 
-Projeto feito para mostrar dados sobre os países do mundo. È possível consultar os dados de um país específico.
+Projeto feito para mostrar dados sobre os países do mundo. É possível consultar os dados de um país específico.
 
 ## ℹ Sobre o projeto 
 Os usuários podem:
